@@ -34,8 +34,8 @@
   text-align: center;
 }
 
-body1 {
-    background-image: url();
+body {
+    background-image: url(https://images.pexels.com/photos/1619573/pexels-photo-1619573.jpeg?auto=compress&cs=tinysrgb&w=1600);
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0;
@@ -52,7 +52,7 @@ form {
     border-bottom: 7px;
 }
 h2 {
-    color: bisque;
+    color: white;
     text-align: center;
     margin: 0;
     font-size: 30px;
@@ -69,4 +69,14 @@ textarea {
     max-height: 200px;
     max-width: 100;
 
+}
+xd{
+    background-image: url('assets/img/xd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+margen{
+    margin: 35px;
 }

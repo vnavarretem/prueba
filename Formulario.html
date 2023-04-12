@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulario</title>
-        <link rel="stylesheet" href="estilo.css">
-    </head>
-    <body1>
-        <form2 action="">
-        <h2>CONTACTO</h2>
-        <input type="text" name="Nombre" placeholder="Nombre">
-        <input type="text" name="correo" placeholder="Correo">
-        <input type="text" name="telefono" placeholder="Telefono">
-        <textarea name="mensaje" placeholder="Escriba su mensaje"></textarea>
-        <input1 type="button" value="ENVIAR" id="boton">   
-        </form2>
-    </body1>
+<html>
+<head>
+  <link rel="stylesheet" href="assets/css/estilo.css">
+  <title>Formulario con HTML5 y Bootstrap</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body class="xd">
+  <div class="container">
+    <h2>Formulario de contacto</h2>
+    <form action="" method="POST">
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa tu nombre">
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico">
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
 </html>
